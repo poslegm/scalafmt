@@ -17,6 +17,9 @@ cache:
     - $HOME/.coursier
     - target/repos
 
+before_install:
+  - git fetch --tags
+  
 before_cache:
   - du -h -d 1 $HOME/.ivy2/cache
   - du -h -d 2 $HOME/.sbt/
