@@ -1,0 +1,11 @@
+image:
+  file: .gitpod.Dockerfile
+github:
+  prebuilds:
+    branches: true
+    pullRequestsFromForks: true
+    addLabel: prebuilt-in-gitpod
+vscode:
+  extensions:
+    - scala-lang.scala@0.3.9:kklqw+c/dNRmtTU8B5repw==
+    - scalameta.metals@1.9.0:EyAIfy0ykjUn9htpw3f7GA==
